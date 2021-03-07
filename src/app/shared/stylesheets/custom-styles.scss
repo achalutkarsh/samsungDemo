@@ -1,0 +1,35 @@
+.div-h {
+  border: 1px solid var(--grey2);
+  border-width: 0 0 1px;
+  border-style: dashed;
+}
+
+.div-h-solid {
+  border: 1px solid var(--grey2);
+  border-width: 0 0 1px;
+}
+
+.card {
+  background-color: var(--grey4);
+  top: 24px;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.4);
+  color: var(--black);
+  padding: 16px;
+  border: 1px solid var(--grey3);
+  z-index: 1;
+  border-radius: 4px;
+}
+
+.pointer {
+  cursor: pointer !important;
+}
+
+.vertical-align {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.width-50-per {
+  min-width: 50%;
+}

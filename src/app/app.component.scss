@@ -1,0 +1,20 @@
+.app {
+    width: var(--screen-width) ;
+    height: calc(var(--screen-ht) - 10px);
+    overflow: scroll;
+    position: relative;
+  }
+
+.fix-header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 500;
+    background-color: white;
+}
+
+
+.scroll {
+    height: calc(var(--screen-ht) - var(--navbar-ht));
+    overflow-y: auto;
+}

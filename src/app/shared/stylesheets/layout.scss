@@ -1,0 +1,439 @@
+@import './universal.scss';
+@import './variable.scss';
+
+/*Layout Declarations*/
+
+.rel {
+  position: relative;
+}
+
+.abs {
+  position: absolute;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.pointer {
+  cursor: pointer !important;
+}
+
+.default {
+  cursor: default !important;
+}
+
+.h-x4 {
+  height: 2px;
+}
+
+.h-x2 {
+  height: 4px;
+}
+
+.h-x {
+  height: 8px;
+}
+
+.h-2x {
+  height: 16px;
+}
+
+.h-3x {
+  height: 24px;
+}
+
+.h-4x {
+  height: 32px;
+}
+
+.h-5x {
+  height: 40px;
+}
+
+.w-x2 {
+  width: 4px;
+}
+
+.w-x {
+  width: 8px;
+}
+
+.w-2x {
+  width: 16px;
+}
+
+.w-3x {
+  width: 24px;
+}
+
+.w-4x {
+  width: 32px;
+}
+
+// Margin
+
+.m-t-1 {
+  margin-top: 1px;
+}
+
+.m-t-2 {
+  margin-top: 2px;
+}
+
+.m-t-3 {
+  margin-top: 3px;
+}
+
+.m-t-x2 {
+  margin-top: 4px;
+}
+
+.m-t-5 {
+  margin-top: 5px;
+}
+
+.m-t-6 {
+  margin-top: 6px;
+}
+
+.m-t-7 {
+  margin-top: 7px;
+}
+
+.m-t-x {
+  margin-top: 8px;
+}
+
+.m-t-13 {
+  margin-top: 13px;
+}
+
+.m-t-2x {
+  margin-top: 16px;
+}
+
+.m-t-3x {
+  margin-top: 24px;
+}
+
+.m-t-4x {
+  margin-top: 32px;
+}
+
+.m-t-5x {
+  margin-top: 40px;
+}
+
+.m-t-6x {
+  margin-top: 48px;
+}
+
+.m-b-x2 {
+  margin-bottom: 4px;
+}
+
+.m-b-x {
+  margin-bottom: 8px;
+}
+
+.m-b-2x {
+  margin-bottom: 16px;
+}
+
+.m-b-3x {
+  margin-bottom: 24px;
+}
+
+.m-b-4x {
+  margin-bottom: 32px;
+}
+
+.m-l-x2 {
+  margin-left: 4px;
+}
+
+.m-l-x {
+  margin-left: 8px;
+}
+
+.m-l-2x {
+  margin-left: 16px;
+}
+
+.m-l-3x {
+  margin-left: 24px;
+}
+
+.m-l-4x {
+  margin-left: 32px;
+}
+
+.m-l-5x {
+  margin-left: 40px;
+}
+
+.m-r-1 {
+  margin-right: 1px;
+}
+
+.m-r-2 {
+  margin-right: 2px;
+}
+
+.m-r-x2 {
+  margin-right: 4px;
+}
+
+.m-r-6 {
+  margin-right: 6px;
+}
+
+.m-r-x {
+  margin-right: 8px;
+}
+
+.m-r-12 {
+  margin-right: 12px;
+}
+
+.m-r-2x {
+  margin-right: 16px;
+}
+
+.m-r-3x {
+  margin-right: 24px;
+}
+
+.m-r-4x {
+  margin-right: 32px;
+}
+
+.m-r-5x {
+  margin-right: 40px;
+}
+
+.m-h-x2 {
+  margin: 0 4px;
+}
+
+.m-h-x {
+  margin: 0 8px;
+}
+
+.m-h-2x {
+  margin: 0 16px;
+}
+
+.m-h-3x {
+  margin: 0 24px;
+}
+
+.m-h-4x {
+  margin: 0 32px;
+}
+
+.m-v-x2 {
+  margin: 4px 0;
+}
+
+.m-v-x {
+  margin: 8px 0;
+}
+
+.m-v-2x {
+  margin: 16px 0;
+}
+
+.m-v-3x {
+  margin: 24px 0;
+}
+
+.m-v-4x {
+  margin: 32px 0;
+}
+
+// Line Height
+
+.l-h-3x {
+  line-height: 24px;
+}
+// Text Style
+
+.inl {
+  display: inline;
+}
+
+.inl-blk {
+  display: inline-block;
+}
+
+.inl-flex {
+  display: inline-flex;
+}
+
+.flex {
+  display: flex;
+}
+
+.none {
+  display: none;
+}
+
+.table {
+  display: table;
+}
+
+.cell {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.row-grp {
+  display: table-row-group;
+}
+
+.row {
+  display: table-row;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.center {
+  text-align: center;
+}
+
+.overflow-y {
+  overflow-y: auto;
+}
+
+.rotate-90 {
+  transform: translateX(-50%) translateY(-37%) rotate(-90deg);
+}
+
+.fi-disable {
+  font-variant-ligatures: none;
+}
+
+.wrap-text {
+  overflow-wrap: break-word;
+}
+
+.footer {
+  background: var(--white);
+  color: black;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0pt -2pt 10pt #727b9e18;
+}
+
+// Chart Tooltip
+
+.tooltip1 {
+  position: absolute;
+  width: 165px;
+  padding: 18px 12px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px #727b9e4e;
+  border: 1px solid #d6def0;
+  border-radius: 6px;
+
+  .health-icon {
+    margin-top: 21px;
+  }
+
+  .deviation {
+    margin-top: 18.5px;
+  }
+}
+
+.tooltip1:after,
+.tooltip1:before {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: ' ';
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.tooltip1:after {
+  border-color: rgba(136, 183, 213, 0);
+  border-top-color: #ffffff;
+  border-width: 11px;
+  margin-left: -75px;
+  margin-top: -1px;
+}
+
+.tooltip1:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-top-color: #d6def0;
+  border-width: 12px;
+  margin-left: -76.1px;
+}
+
+.tooltip2 {
+  width: 165px;
+  position: absolute;
+  padding: 18px 12px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px #727b9e4e;
+  border: 1px solid #d6def0;
+  border-radius: 6px;
+
+  .health-icon {
+    margin-top: 21px;
+  }
+
+  .deviation {
+    margin-top: 18.5px;
+  }
+}
+
+.tooltip2:after,
+.tooltip2:before {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: ' ';
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.tooltip2:after {
+  border-color: rgba(136, 183, 213, 0);
+  border-top-color: #ffffff;
+  border-width: 11px;
+  margin-left: 69px;
+  margin-top: -1px;
+}
+
+.tooltip2:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-top-color: #d6def0;
+  border-width: 12px;
+  margin-left: 68.1px;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

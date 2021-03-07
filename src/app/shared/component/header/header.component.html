@@ -1,0 +1,51 @@
+<div class="container">
+    <h2 class="left vertical-align">Galaxy Note 10 | Note 10+</h2>
+
+    <button class="right">
+        BUY NOW
+    </button>
+
+    <div class="right" *ngIf="mediumScreen">
+        <label class="left h-card vertical-align">SPECS</label>
+        <label class="left h-card vertical-align">SUPPORT</label>
+        <label class="left h-card vertical-align">COMPARE</label>
+
+        <div class="clear"></div>
+        
+    </div>
+
+    
+    <div class="clear"></div>
+
+</div>
+    
+    <div class="div-h-solid "></div>
+    
+    <div class=" container scroll">
+
+        <ul>
+            <li id='higlights' (mouseenter)="hoverHeader($event)" [ngClass]="{
+            'selected-Header': selectedHeader === 'Highlights' 
+            }">HIGHLIGHTS</li>
+            <li id='design' (mouseenter)="hoverHeader($event)" >DESIGN</li>
+            <li id='performance' (mouseenter)="hoverHeader($event)" >PERFORMANCE</li>
+            <li id='camera' (mouseenter)="hoverHeader($event)" >CAMERAS</li>
+            <li id='spen' (mouseenter)="hoverHeader($event)" >S PEN</li>
+            <li id='accessories' (mouseenter)="hoverHeader($event)" >ACCESSORIES</li>
+            <li id='offer' (mouseenter)="hoverHeader($event)" >OFFER</li>
+
+            <li id='specs' (mouseenter)="hoverHeader($event)"  *ngIf="lowScreen">SPECS</li>
+            <li id='support' (mouseenter)="hoverHeader($event)"  *ngIf="lowScreen">SUPPORT</li>
+            <li id='camera' (mouseenter)="hoverHeader($event)"  *ngIf="lowScreen">COMPARE</li>
+
+            <div class="clear"></div>
+        </ul>
+
+        <div class="nav-bar" >
+
+        </div>
+        
+    </div>
+    
+    <div class="div-h-solid "></div>
+    
